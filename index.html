@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>音声認識でSlack通知</title>
+  <script type="module" src="./script.mjs" defer></script>
+</head>
+<body>
+  <p>SlackのWebhook URL</p>
+  <input type="text" id="webhook-url">
+  <p>検索対象にするキーワード (一行に1つ)</p>
+  <textarea id="search-keywords"></textarea>
+  <button id="start-button">開始</button>
+  <ul id="log-container"></ul>
+</body>
+</html>
